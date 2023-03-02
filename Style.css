@@ -1,0 +1,122 @@
+
+   body {
+  background-color:#8EA7E9;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+    
+}
+
+ 
+
+.header  {
+ 
+
+}
+
+
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-color:white;
+  width:20%;
+  border-width:4px;
+}
+
+.hr{
+  border-style:solid;
+  width:100%;
+  color:white;
+}
+
+.footer{
+  background-color:navy;
+  color:white;
+  padding: 0;
+  margin:0;
+  width: 100%;
+    
+  
+}
+  .flex-container{
+    display:flex;
+    background-color: white;
+    flex-wrap: nowrap;
+  }
+  
+.flex-container > div {
+  background-color:#8EA7E9;
+  justify-content: space-between;
+  margin:20px;
+  padding: 25px, 25px, 25px, 25px;
+  text-align: left;
+  line-height: 30px;
+ flex-flow:row wrap;
+ color:white;
+}
+
+
+
+
+.profile{
+display: flex;
+background-color:white;
+}
+
+.profile > div{
+  background-color:#8EA7E9;
+  justify-content:space-between;
+  margin:30px;
+  padding:30px;
+  color:white;
+}
+
+/*.social{
+  color:white;
+  text-decoration-line: none;
+}
+*/
+.hard-skills{
+color:white;
+}
+
+.soft-skills{
+  color: white;
+}
+
+
+h1{
+color:white;
+}
+
+
+h3{
+  color:white;
+}
+
+
+.line{
+  
+}
+
+
+.li{
+  color:white;
+  font-size: 40;
+}
+
+
+h2{
+  font-style: italic;
+  color:white
+}
+
+
+
+.welcome{
+  font-style: italic;
+  color:white;
+  line-height:50px;
+  text-align: center;
+}
+
