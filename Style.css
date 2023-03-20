@@ -11,15 +11,26 @@ p{
   font-weight: bold;
 }
 
-.links > a {
+ .links > a {
   
  text-decoration: none;
- background-color: lightcyan;
+ color:white;
 margin: 5px;
 padding :10px;
-font-weight: bold;
+font-weight: bolder;
+}
+ .links > a:hover{
+  background-color: lightgray;
 }
 
+
+ .links > a:visited {
+ background-color: rebeccapurple;
+}
+
+.links > a:active{
+color: yellow;
+}
 
 hr{
   border-style:none;
@@ -33,6 +44,7 @@ hr{
   border-style:solid;
   width:100%;
   color:white;
+  
 }
 
 .footer{
@@ -80,9 +92,11 @@ background-color:white;
   color:white;
   line-height: 120%;
 }
-.handles > li a {
-  color:white;
-  text-decoration-line: none;
+.handles > a {
+  padding: 30px;
+  margin-bottom: 10px;
+
+  
 }
 
 .hard-skills{
