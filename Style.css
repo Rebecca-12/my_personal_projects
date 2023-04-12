@@ -1,23 +1,23 @@
 
-   body {
-  background-color:#8EA7E9;
-    font-size: 40px;
+body {
+   background-color:#8EA7E9;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif; 
     
-    
-}
+    }
 p{
   color:white;
-  font-weight: bold;
+
 }
 
+/* navbarlinks */
+
  .links > a {
-  
  text-decoration: none;
- color:white;
-margin: 5px;
-padding :10px;
-font-weight: bolder;
+ color: white;
+margin: 10px;
+padding :5px;
+font-weight: bold;
 }
  .links > a:hover{
   background-color: lightgray;
@@ -50,8 +50,8 @@ hr{
 .footer{
   background-color:navy;
   color:white;
-  padding: 40;
-  margin:40;
+  padding: 20px;
+  margin:3px;
   width: 100%;
   
     
@@ -67,16 +67,18 @@ hr{
 .flex-container > div {
   background-color:#8EA7E9;
   justify-content: space-between;
-  margin:20px;
-  padding: 30px;
-  text-align: left;
+  margin: 5px;
+  padding: 5px;
   line-height: 150%;
  flex-flow:row wrap;
  color: white;
- box-shadow: 20px;
+
 }
 
-
+.pic{
+  text-align: center;
+  padding-top: 70px;
+}
 
 
 .profile{
@@ -87,45 +89,50 @@ background-color:white;
   .profile > div {
   background-color:#8EA7E9;
   justify-content:space-between;
-  margin:20px;
-  padding:20px;
+  margin:5px;
+  padding:10px;
   color:white;
-  line-height: 120%;
+  line-height: 150%;
 }
-.handles > a {
-  padding: 30px;
-  margin-bottom: 10px;
+
+div > a {
+  padding: 10px;
+  border-radius: 100%;
+}
+.preamble{
+  font-weight: bold;
+  font-size: 20px;
+}
+.handles{
+  display: flex;
+  padding: 20px;
+  margin : 10px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.hard-skills, .soft-skills {
+color: white;
+}
 
   
-}
 
-.hard-skills{
-color:white;
-}
 
-.soft-skills{
+h1, h3{
   color: white;
 }
 
 
-h1{
-color:white;
-}
-
-
-h3{
-  color:white;
-}
-
-
-.line{
-  
+.logo > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
 }
 
 
 .li{
-  color:white;
-  font-size: 40;
+  color: white;
+  font-size: 15px;
 }
 
 
@@ -141,6 +148,7 @@ h2{
   color:white;
   line-height:150%;
   text-align: center;
+  font-weight: bold;
 }
 
 .p{
